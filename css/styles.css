@@ -1,0 +1,113 @@
+body{
+
+  background-color: #fff;
+  font-family: "Montserrat-Black";
+}
+
+.btn-primary {
+  width: 50%;
+  color: #fff;
+  background-color: #399a99;
+
+}
+
+.btn:hover{
+  background-color: #56beba	;
+  width: 50%;
+
+}
+.form-group{
+  width: 50%;
+}
+
+input{
+  width: 50%;
+  height: 5%;
+  border: 1px;
+  padding: 8px 15px 8px 15px;
+  margin:10px 0px 15px 0px;
+  font-family: "Montserrat-Black";
+  box-shadow: 1px 1px 2px 1px grey;
+
+}
+.white-section {
+  background-color: #399a99;
+}
+.upscan{
+  font-family: "Montserrat-Black";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #fff;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #399a99;
+  color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
