@@ -62,21 +62,43 @@
 
 
     <center >
-      <form class="form-group"  method="POST" enctype="multipart/form-data">
-        <img class="upscan" src="images/ups.png" alt="Uplad scan">
-        <label ></label><br>
-        <input class="form-control-file" type="file" name="image" value="" id="image">
-
-        <label for=""></label><br>
-        <input class="form-control" type="text" name="name" value="" placeholder="Enter name">
-
-        <label for=""></label><br>
-        <input class="form-control" type="text" name="id" value="" placeholder="Enter ID"><br>
+      <div class="corona-free">
+        <img src="images/CONG.PNG" alt="CORONA FREE">
 
 
-        <input class="btn btn-primary" type="submit" name="upload" value="Upload" >
+        <section class="colored-section2" id="testimonials">
 
-      </form>
+          <img src="images/next.png" alt="">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <img class="testimonial-image" src="images/stayhome.png" alt="stayhome"><br>
+          <h3 class="testimonial-text">Do your bit and please stay at home</h3>
+
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="testimonial-image" src="images/hands.png" alt="wash hands"><br>
+          <h3 class="testimonial-text">Wash your hands frequently</h3>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="testimonial-image" src="images/sani.png" alt="Sanitize"><br>
+          <h3 class="testimonial-text">Clean groceries or anything you get from outside throughly</h3>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+      </div>
       </section>
 
       <!-- Footer -->

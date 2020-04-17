@@ -4,7 +4,9 @@ body{
   font-family: "Montserrat-Black";
 }
 
-
+.logo{
+  size:50%;
+}
 
 .btn-primary {
   width: 50%;
@@ -22,9 +24,10 @@ body{
   width: 50%;
   background-color: #fff;
   padding: 20px;
+}
+.sec-section{
 
 }
-
 input{
   width: 50%;
   height: 5%;
@@ -78,16 +81,6 @@ p {
   color: #fff;
 }
 
-.colored-section2 {
-  background-color: #dee3e2;
-  color: #399a99;
-}
-
-.testsec{
-  margin-top: 20px;
-  padding: 20px;
-}
-
 /* Navigation Bar */
 
 .navbar {
@@ -107,13 +100,6 @@ p {
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
-}
-
-.testimonial-image{
-  padding: 30px;
-}
-.testimonial-text{
-  padding: 30px;
 }
 
 /* Footer Section */
